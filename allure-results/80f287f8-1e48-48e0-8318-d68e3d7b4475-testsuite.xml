@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619367048152' stop='1619367069070'>
+    <name>The Automation Practice site E2E flow: As a new user, I want to create a new account</name>
+    <title>The Automation Practice site E2E flow: As a new user, I want to create a new account</title>
+    <test-cases>
+        <test-case start='1619367048152' status='passed' stop='1619367048152'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367048152' status='passed' stop='1619367058348'>
+            <name>Given I am on the my account page</name>
+            <title>Given I am on the my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='13f000bb-f093-48b8-a4cc-68320382c538-attachment.png' type='image/png' size='127114'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367058348' status='passed' stop='1619367068853'>
+            <name>When I enter the emailID and click on the Create an Account button</name>
+            <title>When I enter the emailID and click on the Create an Account button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='40b29379-3d2b-4ed7-896b-b371a9d48138-attachment.png' type='image/png' size='127114'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367068853' status='passed' stop='1619367069067'>
+            <name>Then I should navigate to the personal information page</name>
+            <title>Then I should navigate to the personal information page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='834b3a02-1a1c-43af-9769-0cae381c38c9-attachment.png' type='image/png' size='117572'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367069067' status='passed' stop='1619367069068'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

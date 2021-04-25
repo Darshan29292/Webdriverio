@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619367069082' stop='1619367076098'>
+    <name>The Automation Practice site E2E flow: To register, the user has to provide his/her personal information</name>
+    <title>The Automation Practice site E2E flow: To register, the user has to provide his/her personal information</title>
+    <test-cases>
+        <test-case start='1619367069082' status='passed' stop='1619367069082'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367069083' status='passed' stop='1619367069258'>
+            <name>Given I am on the personal information page</name>
+            <title>Given I am on the personal information page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3d9ce212-9a1e-48ef-ac9a-c528c36b4755-attachment.png' type='image/png' size='117572'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367069259' status='passed' stop='1619367075752'>
+            <name>When User enters the mandatory fields and click on Register button</name>
+            <title>When User enters the mandatory fields and click on Register button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d2f26836-efae-4270-8c55-411010193427-attachment.png' type='image/png' size='117572'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367075752' status='passed' stop='1619367076097'>
+            <name>Then The user should be registered and logged in successfully</name>
+            <title>Then The user should be registered and logged in successfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ab5393f8-fb24-47e8-b7ca-700d9d6de8ce-attachment.png' type='image/png' size='126485'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367076098' status='passed' stop='1619367076098'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

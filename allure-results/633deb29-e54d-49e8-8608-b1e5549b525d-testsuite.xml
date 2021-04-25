@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619367652384' stop='1619367666995'>
+    <name>The Automation Practice site E2E flow: To add a product to cart</name>
+    <title>The Automation Practice site E2E flow: To add a product to cart</title>
+    <test-cases>
+        <test-case start='1619367652384' status='passed' stop='1619367652384'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367652384' status='passed' stop='1619367656175'>
+            <name>Given User is logged in and on home page</name>
+            <title>Given User is logged in and on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='41dfc02d-ae44-4136-bd45-973366da647a-attachment.png' type='image/png' size='126459'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367656175' status='broken' stop='1619367666993'>
+            <name>When User views the product and clicks on add to cart</name>
+            <title>When User views the product and clicks on add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7a4e83ba-13fe-42f0-a4ff-1543b647daae-attachment.png' type='image/png' size='957514'/>
+            </attachments>
+            <failure>
+                <message>element not interactable: element not interactable</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=90.0.4430.85)
+                    at Object.getErrorFromResponseBody (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/webdriver/build/utils.js:189:12)
+                    at WebDriverRequest._request (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/webdriver/build/request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+                    at Element.wrapCommandFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:79:29)
+                    at Element.wrapCommandFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:79:29)
+                    at Element.elementErrorHandlerCallbackFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/webdriverio/build/middlewares.js:23:32)
+                    at Element.wrapCommandFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:79:29)
+                    at Element.wrapCommandFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:79:29)
+                    at Element.elementErrorHandlerCallbackFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/webdriverio/build/middlewares.js:23:32)
+                    at Element.wrapCommandFn (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:79:29)
+                    at AddToCartPage.checkoutproduct (/home/bsetec/Desktop/Darshan_webdriverio-master/features/pageobjects/addtocart.page.js:24:9)
+                    at World.&lt;anonymous> (/home/bsetec/Desktop/Darshan_webdriverio-master/features/step-definitions/stepsNew.js:56:5)
+                    at World.executeAsync (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:137:16)
+                    at World.exports.testFrameworkFnWrapper (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:51:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619367666994' status='undefined'>
+            <name>Then The user should be able to complete the purchase</name>
+            <title>Then The user should be able to complete the purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367666994' status='pending' stop='1619367666994'>
+            <name>The user should be able to complete the purchase</name>
+            <title>The user should be able to complete the purchase</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619367666994' status='passed' stop='1619367666995'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

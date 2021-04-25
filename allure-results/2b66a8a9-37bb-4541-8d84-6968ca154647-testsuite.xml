@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619368673852' stop='1619368752422'>
+    <name>The Automation Practice site E2E flow: To add a product to cart</name>
+    <title>The Automation Practice site E2E flow: To add a product to cart</title>
+    <test-cases>
+        <test-case start='1619368673852' status='passed' stop='1619368673852'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619368673852' status='passed' stop='1619368677437'>
+            <name>Given User is logged in and on home page</name>
+            <title>Given User is logged in and on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7491a36d-0adf-4e72-b75f-2a3d26f3ac52-attachment.png' type='image/png' size='126485'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619368677437' status='passed' stop='1619368701616'>
+            <name>When User views the product and clicks on add to cart</name>
+            <title>When User views the product and clicks on add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2c518df4-a7fb-46e5-906d-0885d91febc0-attachment.png' type='image/png' size='957514'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619368701616' status='passed' stop='1619368752419'>
+            <name>Then The user should be able to complete the purchase</name>
+            <title>Then The user should be able to complete the purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3d9fd3d5-0cae-4038-bd5f-477b970ced9a-attachment.png' type='image/png' size='149227'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619368752419' status='passed' stop='1619368752421'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619367798540' stop='1619367879148'>
+    <name>The Automation Practice site E2E flow: To add a product to cart</name>
+    <title>The Automation Practice site E2E flow: To add a product to cart</title>
+    <test-cases>
+        <test-case start='1619367798540' status='passed' stop='1619367798541'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367798541' status='passed' stop='1619367802723'>
+            <name>Given User is logged in and on home page</name>
+            <title>Given User is logged in and on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5efd76ab-e6a5-428d-8d1c-870ef58ad583-attachment.png' type='image/png' size='126485'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367802723' status='passed' stop='1619367826688'>
+            <name>When User views the product and clicks on add to cart</name>
+            <title>When User views the product and clicks on add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='99db4c23-d212-4fe9-bd3b-94c3d9b8ea8e-attachment.png' type='image/png' size='957514'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367826688' status='failed' stop='1619367879137'>
+            <name>Then The user should be able to complete the purchase</name>
+            <title>Then The user should be able to complete the purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fb44aaff-c5a3-4763-8a04-04e8224777b6-attachment.png' type='image/png' size='149227'/>
+            </attachments>
+            <failure>
+                <message>Error: Expect $(`//p[@class='alert alert-success']`) to be existing</message>
+                <stack-trace>Error: Expect $(`//p[@class='alert alert-success']`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at World.&lt;anonymous> (/home/bsetec/Desktop/Darshan_webdriverio-master/features/step-definitions/stepsNew.js:62:52)
+                    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+                    at World.executeAsync (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/shim.js:137:16)
+                    at World.exports.testFrameworkFnWrapper (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:51:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619367879138' status='passed' stop='1619367879147'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

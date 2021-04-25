@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619367076105' stop='1619367166467'>
+    <name>The Automation Practice site E2E flow: To add a product to cart</name>
+    <title>The Automation Practice site E2E flow: To add a product to cart</title>
+    <test-cases>
+        <test-case start='1619367076105' status='passed' stop='1619367076108'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1619367076109' status='passed' stop='1619367080826'>
+            <name>Given User is logged in and on home page</name>
+            <title>Given User is logged in and on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b229072d-fa02-44b9-9f9e-004e2c0530ef-attachment.png' type='image/png' size='126485'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367080826' status='passed' stop='1619367106451'>
+            <name>When User views the product and clicks on add to cart</name>
+            <title>When User views the product and clicks on add to cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e302e611-1f02-4729-89ec-f8fdd3cb2f17-attachment.png' type='image/png' size='957514'/>
+            </attachments>
+        </test-case>
+        <test-case start='1619367106451' status='broken' stop='1619367166466'>
+            <name>Then The user should be able to complete the purchase</name>
+            <title>Then The user should be able to complete the purchase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='77321a24-f825-4958-94e9-1171896039f1-attachment.png' type='image/png' size='149581'/>
+            </attachments>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 60000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 60000 milliseconds
+                    at Timeout._onTimeout (/home/bsetec/Desktop/Darshan_webdriverio-master/node_modules/@cucumber/cucumber/src/user_code_runner.ts:80:18)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619367166466' status='passed' stop='1619367166467'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.85'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
