@@ -11,6 +11,5 @@ Configurations
 To configure your tests, checkout the wdio.conf.js file in your test directory. It comes with a bunch of documented options you can choose from.
 
 Environment-specific configurations
-You can setup multiple configs for specific environments. Let's say you want to have a different baseUrl for your local and pre-deploy tests. Use the wdio.conf.js to set all general configs (like mochaOpts) that don't change. They act as default values. For each different environment you can create a new config with the following name scheme:
+You can setup multiple configs for specific environments. Let's say you want to have a different baseUrl for your local and pre-deploy tests. Use the wdio.conf.js to set all general configs (like mochaOpts) that don't change. They act as default values. For each different environment you can create a new config with the 
 
-wdio.<ENVIRONMENT>.conf.js
