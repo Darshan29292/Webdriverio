@@ -1,7 +1,7 @@
 Feature: The Automation Practice site E2E flow
 
   Scenario: As a new user, I want to signin to the application
-
+ 
     Given I am on the home page
     When I click on the sign in button
     Then I should navigate to the My Accounts page  
