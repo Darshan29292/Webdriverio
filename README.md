@@ -3,7 +3,7 @@
 3) Install all the dependencies using, npm i
 4) Open the terminal.
 5) To execute the feature file in the terminal, run the npm command
-npm run test
+*npm run test*
 6) Once the test is executed, to generate and view the allure report, run the npm command 
 npm run allure-reports
 
