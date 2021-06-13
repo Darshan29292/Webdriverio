@@ -7,7 +7,7 @@
      * define selectors using getter methods
      */
     get shoppingCartSummary () { return $("//h1[@id='cart_title']") }
-
+ 
     get productname () { return $("//td[2]/p[1]/a") }
 
     get proceedToCheckout () { return $("//span[text()='Proceed to checkout']") }
