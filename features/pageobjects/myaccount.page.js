@@ -7,7 +7,7 @@ class MyAccountPage {
      * define selectors using getter methods
      */
     get createAnAccount () { return $("//h3[contains(text(),'Create an account')]") }
-
+ 
     get EmailID () { return $("//input[@id='email_create']") }
 
     get createAnAccountButton () { return $("//button[@id='SubmitCreate']") }
