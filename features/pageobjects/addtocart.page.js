@@ -20,7 +20,7 @@
         await (await this.FirstProduct).scrollIntoView();
         await browser.pause(5000)
         await (await this.FirstProduct).moveTo();
-        await browser.pause(5000)
+        await browser.pause(5000) 
         await (await this.addtocart).click();
         await browser.pause(5000)
         await (await this.checkout).click();       
