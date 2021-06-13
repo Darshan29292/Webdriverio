@@ -63,5 +63,5 @@ Then(/^The user should be able to complete the purchase$/, async () => {
     await expect(ShoppingCartPage.orderSuccessMsg).toBeExisting();
     await browser.pause(5000)
     await HomePage.signOutClick()
-    await browser.pause(5000)
+    await browser.pause(5000)  
 });
