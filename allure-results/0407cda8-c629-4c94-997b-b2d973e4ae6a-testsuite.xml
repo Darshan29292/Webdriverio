@@ -6,7 +6,7 @@
         <test-case start='1619368863694' status='passed' stop='1619368863695'>
             <name></name>
             <title></title>
-            <labels>
+            <labels> 
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
                 <label name='thread' value='0-0'/>
