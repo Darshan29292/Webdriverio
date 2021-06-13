@@ -2,8 +2,8 @@
 2) Open Visual Studio Code Ide and open the cloned project, which is downloaded from above link
 3) Install all the dependencies using, npm i
 4) Open the terminal.
-5) To execute the feature file in the terminal, run the npm command
-*npm run test*
+5) To execute the feature file in the terminal, run the npm command,
+npm run test
 6) Once the test is executed, to generate and view the allure report, run the npm command 
 npm run allure-reports
 
