@@ -53,8 +53,8 @@ class PersonalInfoPage extends Page {
     
     async enterPersonalInfo () {
         await (await this.title).click();
-        await (await this.FirstName).setValue('Roy');
-        await (await this.LastName).setValue('Json');
+        await (await this.FirstName).setValue('Rooy');
+        await (await this.LastName).setValue('Jsoon');
         await (await this.password).setValue('1234567');
         await (await this.dobDay).selectByAttribute("value", "5");
         await (await this.dobMonth).selectByAttribute("value", "6");
